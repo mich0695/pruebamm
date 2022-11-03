@@ -1,0 +1,113 @@
+:root{
+	--menu-hover:#111;
+	--color-base:#fff;
+	--color-naranja: #FFDA79;
+}
+body{
+	font-family: Raleway;
+	font-size: 14px;
+	color: #111;
+}
+header{
+	background-color: var(--color-base);
+}
+
+#hero{
+	background: #fff;
+	background-position: top left;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 5% 0 ;
+}
+#hero h1{
+	color: #111111;
+	font-size: 60px;
+	font-weight: 500;
+	margin-top: 17%;
+}
+#hero h4{
+	color: #fff;
+	margin-top: 30px;
+	font-weight: 300;
+}
+.btn-life{
+	background-color: var(--color-naranja);
+	color: #fff;
+	padding: 1px 30px;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-right: 10px;
+}
+.btn-leon i{
+	font-size: 26px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#tabs {
+	padding-top: 60px;
+	
+}
+.column1{
+	background-color: var(--color-verde);
+}
+
+.header{
+	margin-left:20%;	
+}
+.section1{
+	height: auto;
+    float: center;
+	margin-left:20%;
+}
+.aside1{
+	margin: 3%;
+    width: 40%;
+    height: 31.5em;
+    float: right;
+}
+.section2{
+	margin-top: 35%;
+	margin-right:20%;
+	margin-left:0%;
+	height: auto;
+    float: center;	
+}
+
+.aside2{
+	margin-left:20%;
+    width: 40%;
+    height: 31.5em;
+    float: left;
+}
+.section3{
+	margin-top: 45%;
+	height: auto;
+    float: center;
+	text-align: center;
+}
+#prin {
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.btn btn-light{
+	--color-verde:#27c79a;
+}
+
+
+
+
+
